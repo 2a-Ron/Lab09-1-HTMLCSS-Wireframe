@@ -125,15 +125,15 @@ header h1 {
     color: #000
 }
 
-h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
 	font-family: 'Pacifico', cursive;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: #000;
 }
 
 ul {
-    margin-left: -25px;
+    margin-left: -20px;
     padding: 30px;
     list-style-type: none;
     display: inline-block;
@@ -141,6 +141,7 @@ ul {
 
 li {
     display: inline;
+    margin-right: 30px;
 }
 
 li a {
@@ -149,10 +150,25 @@ li a {
     vertical-align: middle;
 }
 
+h2 {
+    display: inline;
+    position: relative;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
 section {
     /* width: 73%; */
     display: inline;
-    /* float: left; */
+    position: relative;
+    /*float: left;*/
+}
+
+p, button {
+    display: inline;
+    position: relative;
 }
 
 footer {
