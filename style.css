@@ -133,7 +133,7 @@ h2, h3, h4, h5, h6 {
 }
 
 ul {
-    margin-left: -25px;
+    margin-left: -20px;
     padding: 30px;
     list-style-type: none;
     display: inline-block;
@@ -141,6 +141,7 @@ ul {
 
 li {
     display: inline;
+    margin-right: 30px;
 }
 
 li a {
@@ -152,7 +153,8 @@ li a {
 section {
     /* width: 73%; */
     display: inline;
-    /* float: left; */
+    
+    /*float: left;*/
 }
 
 footer {
