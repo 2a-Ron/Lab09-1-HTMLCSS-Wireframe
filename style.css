@@ -1,184 +1,80 @@
 /*
 Wireframe Exercise
 */
-
-* {
-outline: dashed 1px red;
-}
-/*
 body {
-    height: 100%;
-    background-color: #fff;
-    font-family: Arial, Helvetica, san-serif;
-    font-display: auto;
-    color: #000;
-    text-align-last: center;
-    
+    font-family: helvetica;
 }
-
-:any-link {
-    color: #ccdef9;
-    font-weight: normal;
+  
+a {
+    color: #fff;
     text-decoration: none;
 }
-
-a:hover {
-    color: #617493;
-    font-weight: bold;
-    text-decoration: none;
+  
+.clearfix {
+    clear: both;
 }
-
-main {
-    width: 70%;
-    margin: auto;
-    text-align: center;
-}
-
+  
 header {
-    background-color: #000000;
-    padding: 10px;
-    margin: 30px;
-    font-size: 28px;
-    display: block;
+    background: #000;
+    height: 100px;
 }
-
-header h1 {
-    color: #000
+  
+header section {
+    width: 960px;
+    margin: 0 auto;
 }
-
-h3, h4, h5, h6 {
-	font-family: 'Pacifico', cursive;
-    font-size: 25px;
-    font-weight: bold;
-    color: #000;
+  
+header img {
+    float: left;
+    margin-right: 30px;
+    margin-top: 15px;
 }
-
-ul {
-    margin-left: -20px;
-    padding: 30px;
-    list-style-type: none;
+  
+header li {
     display: inline-block;
+    margin-right: 30px;
+    margin-top: 50px;
 }
-
-li {
-    display: inline;
+  
+main {
+    width: 960px;
+    margin: 30px auto;
+}
+  
+.sub-banners li {
+    float: left;
+    margin-top: 30px;
     margin-right: 30px;
 }
-
-li a {
-    height: 25px;
-    padding: 12px 18px 8px 18px;
-    vertical-align: middle;
+  
+.sub-banners li:last-child {
+    margin-right: 0;
 }
-
-h2 {
-    display: inline;
-    position: relative;
-    font-family: 'Pacifico', cursive;
-    font-size: 25px;
-    font-weight: bold;
-    color: #000;
-}
-
-section {
-    display: inline;
-    position: relative;
-}
-
-p, button {
-    display: inline;
-    position: relative;
-}
-
+  
 .left {
     float: left;
     margin-top: 30px;
     margin-right: 30px;
-  }
-
-footer {
-    background-color:;
-    color:;
-    clear: both;
-    display: block;
 }
-*/
-
-body {
-    font-family: helvetica;
-  }
   
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .clearfix {
-    clear: both;
-  }
-  
-  header {
-    background: #000;
-    height: 100px;
-  }
-  
-  header section {
-    width: 960px;
-    // outline: dotted 1px red;
-    margin: 0 auto;
-  }
-  
-  header img {
-    float: left;
-    margin-right: 30px;
-    margin-top: 15px;
-  }
-  
-  header li {
-    display: inline-block;
-    margin-right: 30px;
-    margin-top: 50px;
-  }
-  
-  main {
-    width: 960px;
-    margin: 30px auto;
-  }
-  
-  .sub-banners li {
-    float: left;
+.right {
     margin-top: 30px;
-    margin-right: 30px;
-  }
+}
   
-  .sub-banners li:last-child {
-    margin-right: 0;
-  }
-  
-  .left {
-    float: left;
-    margin-top: 30px;
-    margin-right: 30px;
-  }
-  
-  .right {
-    margin-top: 30px;
-  }
-  
-  h2 {
+h2 {
     margin-top: 30px;
     font-size: 26px;
     text-decoration: underline;
     text-transform: capitalize;
-  }
+}
   
-  .right p {
+.right p {
     line-height: 26px;
     height: 275px;
     overflow: auto;
-  }
+}
   
-  button {
+button {
     border: none;
     border-radius: 3px;
     background: #000;
@@ -186,14 +82,14 @@ body {
     padding: 8px 20px;
     transition: 350ms all;
     cursor: pointer;
-  }
+}
   
-  button:hover {
+button:hover {
     background: #888;
     color: #000;
-  }
+}
   
-  footer {
+footer {
     background: #555;
     height: 150px;
-  }
+}
